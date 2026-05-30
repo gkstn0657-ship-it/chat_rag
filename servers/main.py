@@ -523,3 +523,13 @@ if __name__ == "__main__":
         host=os.getenv("API_HOST", "0.0.0.0"),
         port=int(os.getenv("API_PORT", "8000")),
     )
+<<<<<<< HEAD
+=======
+":
+    import uvicorn
+    uvicorn.run(
+        app,
+        host=os.getenv("API_HOST", "0.0.0.0"),
+        port=int(os.getenv("API_PORT", "8000")),
+    )
+>>>>>>> ec00517230cf8ba8b447222d95f410f5e938ea83
